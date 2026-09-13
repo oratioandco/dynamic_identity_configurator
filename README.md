@@ -1,32 +1,52 @@
-# Generative Identity Church
+# Werkstatt Gottesdienst — a generative church identity
 
-## [Try it out](http://tobystereo.github.io/dynamic_identity_configurator/)
+**One building, endless posters.** A dynamic identity generator designed for a Berlin church — every regeneration produces a poster that has never existed before, yet is unmistakably the same brand.
 
-A dynamic identity generation tool pitched for a Berlin church.
-The church was using a beautiful old church building with a signature look and a lot of architectural detail.
+**[▶ Try it live](https://oratioandco.github.io/dynamic_identity_configurator/)**
 
-![St. Johannes Evangelist Church on Gallery Row](/assets/img/location.png)
-![](/assets/img/churchphoto.png)
+![The configurator in action — regenerating the design, retuning the colors, downloading the result](/assets/img/configurator-demo.gif)
 
-The church also ran a gallery across the street (gallery row).
+---
 
-As part of the brand expression one direction was to focus in on the architecture and the local art scene and craft a generative design that can be applied to posters, invitations and any other medium easily while also allowing for some customizability for the different types of events offered.
-The idea was to find inspiration in the architecture but express church as a mosaic of a diverse group of people with different walks of life but one common spirituality community.
+## The brief
 
-This would be expressed by separating the building into separate vector shapes and adding randomness into the display of the elements as well as choosing different (randomized) colors for each element.
+St. Johannes Evangelist sits on Auguststraße in Berlin-Mitte — gallery row. A beautiful old building with a signature look and a lot of architectural detail, and across the street, its own gallery. The church runs events of every kind, and each one needs a poster, an invitation, a flyer.
 
-The church shape was drawn as a vector based on photography and then isolated into separate elements.
-![Vectorized Church Front](/assets/img/vectorshape.png)
+A fixed logo could never carry that variety. The identity needed to be as plural as the congregation itself.
 
-Then multiple formats were developed, including an A4 poster option.
-![Poster Layout](/assets/img/mockup.png)
+## The idea
 
-The configurator allows for a threshold to be set which then determines how many elements are shown. The script goes through each element and generates a random number. If the number is below the determined threshold, the element will be displayed, otherwise it won’t. The ‘Regenerate Design’ will restart the process leading to different results every time.
-![Code Snipper](/assets/img/code.png)
-![Cnfiguration Screen](/assets/img/tool.png)
+Express church as a mosaic: a diverse group of people with different walks of life, one common spirituality.
 
-Other features include text edit and control as well as background color or image as well as downloading the configuration as a PDF.
+The building itself became the metaphor. Its facade — arched windows, the rose window, the portal — was drawn as a vector from photography, then broken apart into separate elements. No single element is the identity. The identity is the way the pieces come together, and the pieces come together differently every time.
 
-## [Try it out](http://tobystereo.github.io/dynamic_identity_configurator/)
+The facade before the break-up:
 
-[toby@oratio.co]
+![Vectorized church front](/assets/img/vectorshape.png)
+
+## The system
+
+Two dials drive everything:
+
+- **Threshold** — each element rolls a random number. Below the threshold, it appears; above, it's gone. Low threshold: a sparse, quiet facade. High: the full building.
+- **Color range** — every element draws its hue, saturation and lightness from a bounded field, so the palette can swing from restrained to exuberant without ever leaving the brand.
+
+The result is a system that is random on purpose and bounded by design. Regenerate, and you get a poster nobody has seen before that nobody could mistake for anyone else's.
+
+The identity applied across formats — poster, letterhead, business card — all generated from the same source shapes:
+
+![Poster layout mockup](/assets/img/mockup.png)
+
+## The tool
+
+A generative system is only useful if the people who run the events can drive it. So the system became a configurator: set the threshold, tune the color range, edit logo and text, swap the background — and download the finished piece as a PDF, print-ready.
+
+No design software. No designer in the loop. Every event gets its own original.
+
+## Under the hood
+
+Vanilla JavaScript with [d3.js](https://d3js.org) driving the SVG generation, [chroma.js](https://gka.github.io/chroma.js/) for the color ranges, [interact.js](https://interactjs.io) for the controls, and PDF export client-side. The source shapes live as SVGs in [`/sources`](./sources) — poster, letterhead, business card.
+
+---
+
+**[▶ Try it live](https://oratioandco.github.io/dynamic_identity_configurator/)** — no install, nothing to sign up for.
