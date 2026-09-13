@@ -4,8 +4,6 @@
 
 **[▶ Try it live](https://oratioandco.github.io/dynamic_identity_configurator/)**
 
-![The configurator in action — regenerating the design, retuning the colors, downloading the result](/assets/img/configurator-demo.gif)
-
 ---
 
 ## The brief
@@ -50,6 +48,12 @@ No design software. No designer in the loop. Every service gets its own original
 ## Epilogue
 
 The pitch was never built out beyond the prototype — but the building has its own ending: it was later sold and is today a full church again, home to an Assyrian congregation. The posters remain as how the building looked in its art-gallery years.
+
+## See it run
+
+The configurator itself — regenerating the design, retuning the colors, downloading the result:
+
+![The configurator in action — regenerating the design, retuning the colors, downloading the result](/assets/img/configurator-demo.gif)
 
 ## Under the hood
 
