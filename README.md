@@ -1,6 +1,6 @@
 # Werkstatt Gottesdienst — a generative church identity
 
-**One building, endless posters.** A dynamic identity generator designed for a Berlin church — every regeneration produces a poster that has never existed before, yet is unmistakably the same brand.
+**One building, endless posters.** A dynamic identity generator pitched for a church startup in Berlin — every regeneration produces a poster that has never existed before, yet is unmistakably the same brand.
 
 **[▶ Try it live](https://oratioandco.github.io/dynamic_identity_configurator/)**
 
@@ -10,9 +10,11 @@
 
 ## The brief
 
-St. Johannes Evangelist sits on Auguststraße in Berlin-Mitte — gallery row. A beautiful old building with a signature look and a lot of architectural detail, and across the street, its own gallery. The church runs events of every kind, and each one needs a poster, an invitation, a flyer.
+The venue is St. Johannes Evangelist on Auguststraße in Berlin-Mitte — gallery row. A beautiful old building with a signature look and a lot of architectural detail.
 
-A fixed logo could never carry that variety. The identity needed to be as plural as the congregation itself.
+But the congregation was not the church that owns the building. The client was a church startup — a young congregation renting the space for its services, gathered under the Evangelische Kulturwerkstatt, the Protestant church's culture program. The building itself had passed into art use: the Kulturwerkstatt showed contemporary art there, which is what put it on gallery row in the first place. A congregation meeting inside an artwork, in effect.
+
+That layered setting shaped the brief. The startup's services would vary — teaching, worship, cultural evenings — and each needed a poster, an invitation, a flyer. A fixed logo could never carry that variety. The identity needed to be as plural as the room it was meeting in.
 
 ## The idea
 
@@ -41,7 +43,11 @@ The identity applied across formats — poster, letterhead, business card — al
 
 A generative system is only useful if the people who run the events can drive it. So the system became a configurator: set the threshold, tune the color range, edit logo and text, swap the background — and download the finished piece as a PDF, print-ready.
 
-No design software. No designer in the loop. Every event gets its own original.
+No design software. No designer in the loop. Every service gets its own original.
+
+## Epilogue
+
+The building was later sold and is today a full church again — home to an Assyrian congregation. The identity was made for a specific moment in the building's life: a young church renting an art space, on a street full of galleries. The posters are how that moment looked.
 
 ## Under the hood
 
