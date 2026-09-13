@@ -10,11 +10,13 @@
 
 ## The brief
 
-The venue is St. Johannes Evangelist on Auguststraße in Berlin-Mitte — gallery row. A beautiful old building with a signature look and a lot of architectural detail.
+The setting is St. Johannes Evangelist on Auguststraße in Berlin-Mitte — gallery row. A beautiful old building with a signature look and a lot of architectural detail, its facade photographed here as it stands on the street:
 
-But the congregation was not the church that owns the building. The client was a church startup — a young congregation renting the space for its services, gathered under the Evangelische Kulturwerkstatt, the Protestant church's culture program. The building itself had passed into art use: the Kulturwerkstatt showed contemporary art there, which is what put it on gallery row in the first place. A congregation meeting inside an artwork, in effect.
+![St. Johannes Evangelist Church on Gallery Row](/assets/img/location.png)
 
-That layered setting shaped the brief. The startup's services would vary — teaching, worship, cultural evenings — and each needed a poster, an invitation, a flyer. A fixed logo could never carry that variety. The identity needed to be as plural as the room it was meeting in.
+![The church building](/assets/img/churchphoto.png)
+
+The identity was pitched for a church startup that rented the space for its services, at a time when the Protestant church used the building for contemporary art. A young congregation meeting in an art space — and its services would vary, each one needing a poster, an invitation, a flyer. A fixed logo could never carry that variety. The identity needed to be as plural as the room it was meeting in.
 
 ## The idea
 
@@ -47,7 +49,7 @@ No design software. No designer in the loop. Every service gets its own original
 
 ## Epilogue
 
-The building was later sold and is today a full church again — home to an Assyrian congregation. The identity was made for a specific moment in the building's life: a young church renting an art space, on a street full of galleries. The posters are how that moment looked.
+The pitch was never built out beyond the prototype — but the building has its own ending: it was later sold and is today a full church again, home to an Assyrian congregation. The posters remain as how the building looked in its art-gallery years.
 
 ## Under the hood
 
